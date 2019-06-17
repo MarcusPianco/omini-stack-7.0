@@ -1,6 +1,6 @@
 # Ambiente OminiStack 7.0
 
-Este repositório tem o propósito de ajudar na instalação de biblioteças e configurações necessárias para o desenvolvimento de aplicações na semana oministack 7.0 da rocketseat, este repositório não tem qualquer vínculo não sendo atrelado ao curso, foi apenas criado para ajudar alguns devs a instalar o que é preciso :).
+Este repositório tem o propósito de ajudar na instalação de bibliotecas e configurações necessárias para o desenvolvimento de aplicações na semana oministack 7.0 da rocketseat, este repositório não tem qualquer vínculo com a empresa rocketseat, não sendo atrelado ao curso, foi apenas criado para ajudar alguns devs a instalar o que é preciso :).
 
 # Instalndo o nodeJS versão LTS usando package manager
 
@@ -13,7 +13,7 @@ https://nodejs.org/en/download/package-manager/
 2) Escolha a opção macOs
 
  Existem duas opções:
- ### Via Bash inserindo o comando abaixo no terminal:
+ ### Via bash inserindo o comando abaixo no terminal:
  
  ``
  curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
@@ -65,7 +65,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash -
 apt-get install -y nodejs
 ```
 
-Pronto o node já está instalado!!!! :). Para testar execute noterminal o seguinte comando:
+Pronto o node já está instalado!!!! :). Para testar execute no terminal o seguinte comando:
 
 ```sh
 node -v
@@ -137,12 +137,12 @@ Para testar se tudo deu certo execute o comando `yarn -v` e deverá aparecer: `1
 2) No campo busca digite `dracula` e clique em install como na imagem abbaixo:
 ![](/images/Instalandotemadracula.png)
 
-Pronto o tema já está instalado :) !!! Caso o tema do seu vs code ainda não tenha mudado, clique nas opções seguintes (no meu superior do vs code)
+Pronto o tema já está instalado :) !!! Caso o tema do seu VS code ainda não tenha mudado, clique nas opções seguintes (no meu superior do vs code)
 
 ```
 Code->Preferences->Color Theme-> Dracula
 ```
-A escolha da opção do tema pode variar de acordo com o seu sistema opracional, mas o processo será o mesmo( tenta localizar preferencias e logo em seguida tema :) )
+A escolha da opção do tema pode variar de acordo com o seu sistema opracional, mas o processo será o mesmo(tente localizar preferencias e logo em seguida tema :) )
 
 ## Modificando estilo dos Ícones 
 
@@ -161,8 +161,6 @@ Code->Preferences->File Icon Theme->Material
 ```
 A escolha da opção de mudança do estilo dos ícones pode variar de acordo com o seu sistema opracional, mas o processo será o mesmo( tenta localizar preferencias e logo em seguida File Icon Theme :) )
 
-
-
 ## Instalando Extensões da Rocketseat
 
 1) Novamente no campo de pesquisa em `extensions` ou `extensões` digite: `rocketseat`, aparecerão duas extensões, basta clicar em install como nas imagens abaixo:
@@ -179,9 +177,9 @@ Pronto as extensões da Rocketseat já estão instaladas :) !!!
 
 ### macOS e Linux
 
-1) Bas baixar o Fira Code no link: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip)
+1) Baixar o Fira Code no link: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip)
 
-2) Descompactar ir na pasta `/ttf/` clicar nas fontes e clicar em `Instalar Fonte` (no macos, no linux deverá ser similar),
+2) Descompactar e ir na pasta `/ttf/` clicar nas fontes e clicar em `Instalar Fonte` (no macos, no linux deverá ser similar),
 faça isso para todos os arquivos .ttf na pasta.
 
 3) Pressione as teclas command+shift+p no macOS  (no linux ctrl+shift+p) e digite `settings` clique na opção `Open Settings (JSON)`
